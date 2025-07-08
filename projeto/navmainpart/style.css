@@ -1,0 +1,254 @@
+@import url('https://fonts.cdnfonts.com/css/gg-sans-2');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserraat,sans-serif;
+}
+
+body{
+    background: #00000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(23, 23, 23, 1) 100%);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+li, a, button{
+    font-family: montserrat, sans-serif;
+    font-weight: 500px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    background: rgb(0, 0, 0, 0);
+}
+
+.login a{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.login a:hover{
+    color: black;
+    scale: 1.1;
+    box-shadow: 0 0 5px #fff;
+    background-color: #fff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    width: 79%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+
+
+nav > ul{
+    display: flex;
+    gap: 150px;
+    list-style-type: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    width: 1160px;
+    border-radius: 5px ;
+    border: 3px solid rgb(126, 126, 126);
+}
+
+
+.container > div{
+    display: flex;
+    height: 360px;
+    transition: 0.5s;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 33px;
+}
+
+.container h1{
+    color: rgb(255, 255, 255)  ;
+}
+
+.container > div:hover{
+    flex-grow: 2;
+}
+
+
+.container a{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.container a:hover{
+    color: black;
+    scale: 1.1;
+    box-shadow: 0 0 5px #fff;
+    background-color: #fff;
+}
+
+#K{
+    background-image: url("keyboardlogo2.jpg");
+}
+
+
+#M{
+    background-image: url("mouselegal.webp");
+}
+
+   
+
+
+
+/* ///////////////////////////////////////////--------/////////////////////////////////////////////////////////////////// */
+
+
+
+.cards{
+    padding: 15px;
+    display: flex;
+    gap: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 260px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+
+.card img{
+    height: 250px;
+    border-radius: 14px;
+}
+
+#preço{
+    color: rgb(90, 90, 90);
+    font-size: 18px;
+}
+
+#titulo{
+    color: aliceblue;
+    font-size: 11px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.produto{
+    display: flex;
+    justify-content: center;
+}
+
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    color: aliceblue;
+    height: 400px;
+    gap: 20px;
+    font-size: 17px;
+}
+
+.texto > p{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.texto input{
+    width: 120px;
+    height: 30px;
+    background-color: #00000000;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.texto small p{
+    font-size: 15px;
+    margin-bottom: 6px;
+    font-family: sans-serif;
+    color: #bdbdbd;
+}
+
+.foto img{ 
+    width: 600px;
+    height: 600px;
+}
+
+.foto-menor{
+    display: flex;
+    width: 600px;
+}
+
+.foto-menor img{
+    width: 25%;
+}
+
+.prod-dir{
+    width: 40%;
+}
+
+.texto button{
+    color: rgb(255, 255, 255);
+    padding: 13px 10px;
+    border-radius: 20px;
+    background-color: black;
+    transition: 0.5s;
+    border: none;
+    width: 90%;
+    cursor: pointer;
+}
+
+.texto button:hover{
+    color: black;
+    box-shadow: 0 0 5px #fff;
+    background-color: #fff;
+    border: none;
+}
